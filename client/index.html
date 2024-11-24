@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jcob and co</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form onsubmit="login(event)" method="POST">
+                <div><span class="login-txt">Login</span></div>
+                <div class="form-row"><input type="email" name="email" id="email" placeholder="Email"> <span
+                        class="clienterr" id="email-err"></span>
+                </div>
+                <div class="form-row"><input type="password" name="password" id="pass" placeholder="Password"> <span
+                        class="clienterr" id="pass-err"></span>
+                </div>
+                <div class="login-btn">
+                    <button class="login-btn" >Login 
+                    </button>
+                </div>
+                <div class="line">
+                    <div class="or"><span>OR</span></div>
+                </div>
+                <div class="pass">
+                 <div class="new-use"><a href="">Create new account</a></div>
+               <div class="forgot-pass"><a href="">Forgot password?</a></div>
+            </div>
+            </form>
+           
+           </div> 
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
